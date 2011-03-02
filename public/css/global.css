@@ -1,0 +1,23 @@
+body {width:420px;margin:auto;margin-top:10px;background-color:#090909}
+#page-left {float:left;width:400px;margin:auto;
+-webkit-box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+border:10px solid #3366FF;background:#88D3F1;background-color:#3366FF;
+border-radius:10px;}
+#container {float:left; position:relative;}
+#imageView { border: 1px solid #000;background:#DDD }
+#imageTemp { position: absolute; top: 0px; left: 0px; }
+#chat {float:left;width:100%}
+#log {float:left;height:100px;width:100%;overflow-y:scroll}
+#log p {padding-left:20px;font-size:13px;line-height:12px}
+#controls {float:left;margin-top:10px;width:100%}
+input.color {width:40px}
+#connectbtn {float:right}
+#clearCanvasBtn {float:right;margin-left:30px;}
+
+#options {position:relative;z-index:999;float:left;height:30px;width:100%;margin:0;padding:0;}
+#paint_options, #record_options {cursor:pointer;float:left;width:80px;height:26px;margin:0;padding:0;
+	background:#1B1B1B;color:white;font-weight:bold;margin:5px;margin-left:0;text-align:center;}
+#paint_options span, #record_options span {display:block;padding:3px;height:20px;}
+#paint_options .hidden,#record_options .hidden {position:absolute;z-index:999;float:left;display:none; width:auto;
+	text-align:left;overflow:hidden;background:#1B1B1B;padding:5px;  opacity: 0.75;}
+
